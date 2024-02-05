@@ -1,0 +1,17 @@
+{
+  "name": "projektas1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "boolean": "node --watch ./data-types/boolean.js",
+    "string": "node --watch ./data-types/string.js",
+    "methods:string": "node --watch ./methods/string.js",
+    "number": "node --watch ./data-types/number.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "echo \"Error: no test2 specified\" && exit 2"
+  },
+  "keywords": [],
+  "author": "Egle <egletarabildiene@gmail.com> (https://github.com/EgleTarabildiene)",
+  "license": "MIT",
+  "description": ""
+}
