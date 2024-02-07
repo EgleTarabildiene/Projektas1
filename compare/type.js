@@ -24,10 +24,11 @@ console.log(e);
 const f = typeof undefined;
 console.log(f);
 
-const g = typeof typeof 42069;
-const g = typeof (typeof 42069);
-const g = typeof typeof 42069);
-const g = typeof (typeof 42069);
+const g = typeof typeof true;
+//const g = typeof (typeof true);
+//const g = typeof ('boolean');
+//const g = typeof 'boolean';
+//const g = typeof 'string';
 console.log(g);
 
 
