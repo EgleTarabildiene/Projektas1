@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "type": "node --watch ./compare/type.js",
+    "function": "node --watch ./functions/function.js",
+    "ternary": "node --watch ./compare/ternary.js",
+    "compare:if": "node --watch ./compare/if.js",
     "boolean": "node --watch ./data-types/boolean.js",
     "string": "node --watch ./data-types/string.js",
     "methods:string": "node --watch ./methods/string.js",

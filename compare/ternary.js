@@ -63,7 +63,6 @@ const priceToHight = 2;
 //${Palangos turgus} prekiauja per brangiomis prekemis
 // ${Palangos turgus} prekiauja iperkamomis prekemis!
 
-const msgPalanga = '';
 
 if (price <= priceToHight) {
     msgPalanga = `${name} turgus prekiauja per brangiomis prkemis!`;
@@ -72,6 +71,10 @@ if (price <= priceToHight) {
 }
 
 console.log(msgPalanga);
+
+
+
+
 
 const ternaryPalanga = price <= priceToHight
     ? `${name} prekiauja per brangiomis prekemis!`
@@ -84,3 +87,4 @@ console.log(ternaryPalanga2);
 const kainosText = price <= priceToHight ? 'iperkamomis' : 'per brangiomis';
 const ternaryPalanga3 = `${name} prekiauja ${kainosText} prekemis!`;
 console.log(ternaryPalanga3);
+
