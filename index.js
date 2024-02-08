@@ -13,14 +13,15 @@ comment
 /*
 busimos temos:
 - duomenu tipai:
--skaiciai
--tekstas
- -logines reiksmes
+-skaiciai +
+-tekstas+
+ -logines reiksmes+
+ - undefined +
  -sarasas
  -objektas
 - salygos (if)
-    - if
-    -ternary
+    - if+
+    -ternary+
     -switch
 - ciklai (for)
         -for
@@ -30,7 +31,7 @@ busimos temos:
         -for-in
         kiti cikliski metodai
 - funkcijos
-        - function
+        - function+
         - arrow function
         - class
 - event listeners (ivykiai)

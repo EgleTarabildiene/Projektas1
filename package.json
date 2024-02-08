@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "number-sum": "node --watch ./exercises/number-sum.js",
+    "for": "node --watch ./loops/for.js",
+    "array": "node --watch ./data-types/array.js",
     "type": "node --watch ./compare/type.js",
     "function": "node --watch ./functions/function.js",
     "ternary": "node --watch ./compare/ternary.js",

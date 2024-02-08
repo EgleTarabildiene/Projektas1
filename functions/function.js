@@ -164,6 +164,7 @@ function betterPrice(amount) {
 
 console.log(betterPrice(0), '->', '0 Eur');
 console.log(betterPrice(10), '->', '10 Eur');
+
 console.log(betterPrice(50), '->', '50 Eur');
 console.log(betterPrice(90), '->', '90 Eur');
 console.log(betterPrice(99), '->', '99 Eur');
@@ -215,3 +216,10 @@ if ('' + NaN === 'NaN') {
 } else {
     console.log('ne');
 }
+
+function sum(a, b) {
+    return a + b;
+}
+
+sum(7, 5);
+sum('asd', true);
