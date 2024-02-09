@@ -14,24 +14,24 @@ comment
 busimos temos:
 - duomenu tipai:
 -skaiciai +
--tekstas+
- -logines reiksmes+
+-tekstas +
+ -logines reiksmes +
  - undefined +
- -sarasas
- -objektas
+ - sarasas +
+ -objektas +
 - salygos (if)
-    - if+
-    -ternary+
+    - if +
+    -ternary +
     -switch
 - ciklai (for)
-        -for
+        -for +
         -while
         -do-while
         -for-of
         -for-in
         kiti cikliski metodai
 - funkcijos
-        - function+
+        - function +
         - arrow function
         - class
 - event listeners (ivykiai)
