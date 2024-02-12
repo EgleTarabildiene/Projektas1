@@ -19,6 +19,7 @@ busimos temos:
  - undefined +
  - sarasas +
  -objektas +
+ - null 
 - salygos (if)
     - if +
     -ternary +
