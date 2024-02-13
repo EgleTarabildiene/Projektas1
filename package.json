@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "array2": "node --watch ./methods/array2.js",
+    "string2": "node --watch ./methods/string2.js",
+    "remove-negative": "node --watch ./exercises/remove-negative.js",
     "for-in": "node --watch ./loops/for-in.js",
     "while": "node --watch ./loops/while.js",
     "for-of": "node --watch ./loops/for-of.js",

@@ -15,7 +15,7 @@ console.log('SUM:', sum);
 
 console.clear()
 
-const min = 13;
+const min = 12;
 const max = 15;
 let total = 0;
 
@@ -62,7 +62,7 @@ function correctBetween(max) {
     return (max * (max + 1)) / 2;
 }
 
-console.log(correctBetween(1));
+console.log(correctBetween(13, 15));
 console.log(correctBetween(10));
 console.log(correctBetween(100));
 console.log(correctBetween(100));
@@ -94,3 +94,43 @@ console.log('--------');
 //console.log(correctBetween(5, 1000_000));
 //console.log(correctBetween(5, 100_000_000));
 //console.log(correctBetween(5, 1000_000_000));
+
+
+
+
+function sumBetween2(min, max) {
+    let total = 0;
+    for (let i = min; i <= max; i++) {
+        total += i;
+    }
+    return total;
+
+}
+
+
+console.log('total:', total);
+console.log(sumBetween2(1, 9));
+console.log(sumBetween2(3, 7));
+console.log(sumBetween2(14, 19));
+console.log(sumBetween2(4, 9));
+
+
+
+function sumBetween3(min, max) {
+    if ((min + max) == 10) {
+        return (min * 2 + max * 2)
+    }
+    let tat = 0;
+    let x = ('min').length;
+    x -= 1;
+    tat = (min + max) * x; {
+
+    } return tat
+}
+console.log('total:');
+
+console.log('total:', total);
+console.log(sumBetween3(2, 5));
+console.log(sumBetween3(5, 12));
+console.log(sumBetween3(14, 19));
+console.log(sumBetween3(4, 9));
