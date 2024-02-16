@@ -22,7 +22,7 @@ function reverse(text) {
     return result;
 }
 
-console.log(reverse('abc'), '-> cba');
+console.log(reverse('abc labas kaip sekas'), '-> cba');
 console.log(reverse('labas'), '->', 'sabal');
 console.log(reverse('kedes'), '->', 'sedek');
 console.log(reverse('alus'), '->', 'sula');

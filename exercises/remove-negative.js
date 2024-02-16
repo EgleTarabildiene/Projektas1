@@ -10,7 +10,7 @@ function removeNegative(list) {
 
     for (const number of list) {
         if (number > 0) {
-            result += number;
+            result = number;
         }
     }
     return result;

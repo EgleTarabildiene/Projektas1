@@ -119,7 +119,7 @@ console.log(9 % 3);
 //Pirmadienis = 1, 8, 15
 //Antradienis = 2, 9, 16
 //...
-//sekmadienis = 7, 14
+//Sekmadienis = 7, 14
 
 
 //naktis = 0; diena = 1; turi gautis atsakymas (apacioi)
@@ -140,7 +140,7 @@ console.log(dienaArNaktis);
 // 2+2*2 = 8
 
 console.log(2 + 2 * 2);
-console.log(2 + 2 * 2 ** 2);
+console.log(2 + 2 * 2 ** 2); //laisnio rodiklis turi pirmuma.
 
 console.log(4 * 4 / 4);   //atliekami veiksmai is eiles jei nera skliausteliu
 console.log(4 / 4 * 4);

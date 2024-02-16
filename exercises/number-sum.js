@@ -121,7 +121,8 @@ function sumBetween3(min, max) {
         return (min * 2 + max * 2)
     }
     let tat = 0;
-    let x = ('min').length;
+    let x =
+        ('min').length;
     x -= 1;
     tat = (min + max) * x; {
 

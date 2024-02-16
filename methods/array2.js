@@ -181,5 +181,17 @@ Grazinti trumpini (inicialai).
 pvz. Chuck Norris -> C.N
 */
 
-const cekas = [Chuck, Norris];
+//onst cekas = [Chuck, Norris];
+
+
+let vard1 = '';
+let vard2 = '';
+console.log('--------------------namu darbas-------------');
+let vard = 'mantas'[0];
+vard1 = vard.toUpperCase();
+vard2 = vard.slice(1);
+
+console.log(vard2);
+let vard3 = vard1 + vard2;
+console.log(vard3);
 
