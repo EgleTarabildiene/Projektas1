@@ -50,16 +50,6 @@ console.log(kabuteMix24);
 
 
 
-
-
-
-
-
-
-
-
-
-
 const gele = 'roze';
 const spalva = 'raudona';
 

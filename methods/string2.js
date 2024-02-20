@@ -183,7 +183,7 @@ console.log('vasara'.toUpperCase());
 console.log('VASara'.toUpperCase());
 console.log('vasara'.toLowerCase());
 
-
+console.log('---------trim iskerpa')
 console.log('vasara'.trim('s'));
 console.log(`"${'vasara'.trim()}"`);
 console.log(`"${'v a s a r a'.trim()}"`);
