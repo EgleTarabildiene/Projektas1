@@ -118,12 +118,12 @@ class Parrot {
     }
 
     paserti(kiekis) {
-        if (this.apetitas + kiekis <= this.apetitoLygis) {
-            this.apetitas += kiekis;
+        if (this.apetitoLygis + kiekis <= this.apetitas) {
+            this.apetitoLygis += kiekis;
         } else {
-            const diff = this.apetitas - this.apetitoLygis;
+            const skirtumas = this.apetitas - this.apetitoLygis;
             this.apetitoLygis = this.apetitas;
-            console.log(`perdaug, duoti tik ${diff}`);
+            console.log(`perdaug, duoti tik ${skirtumas}`);
         }
     }
 
