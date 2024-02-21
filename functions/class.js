@@ -43,7 +43,8 @@ class Car {
         if (this.tankLevel + amount <= this.tankSize) {
             this.tankLevel + amount;
         } else {
-            const diff = this.tankSize;
+            const diff = this.tankSize - this.tankLevel;
+            this.tankLevel = this.tankSize;
             console.log(`Per daug, ipilta tik ${diff}`);
         }
     }
@@ -95,10 +96,11 @@ Savybes :
 -miega/nemiega
 
 Functionalumas:
--gali pakartoni pasakyta zodi
+ -gali pakartoni pasakyta zodi
     -jeigu miega, nereguoja
-    -jeigu pasakomas daugiau nei vienas pakiartoja pirma
-
+    -jeigu pasakomas daugiau nei vienas pakartoja pirma
+-galima uzmigdyti
+-galima pazadinti
 
 */
 
@@ -107,15 +109,56 @@ class Parrot {
         // šis objektas kontekstinis kintamasis
         this.vardas = vardas;
         this.spalva = spalva;
-        this.age = amzius;
-        this.isSleping = false;
-        this.talking = false,
-            this.windowsHeight = [1, 1, 1, 1],
-            this.apetite = 40;
-
-
+        this.amzius = amzius;
+        this.isSleeping = true;
+        this.isTalking = true,
+            this.apetitas = 40;
+        this.pasakytasZodis = '';
+        this.apetitoLygis = 5;
     }
+
+    paserti(kiekis) {
+        if (this.apetitas + kiekis <= this.apetitoLygis) {
+            this.apetitas += kiekis;
+        } else {
+            const diff = this.apetitas - this.apetitoLygis;
+            this.apetitoLygis = this.apetitas;
+            console.log(`perdaug, duoti tik ${diff}`);
+        }
+    }
+
+    kalbek(zodziai) {
+        if (this.isSleeping === false) {
+            const zodis = zodziai.split(" ")[0];
+            this.pasakytasZodis = zodis;
+        } if (this.isSleeping === true) {
+            console.log(`Reikia pazadinti papuga`);
+        }
+    }
+    pazadinkPapuga() {
+        this.isSleeping = false;
+    }
+
+    uzmigdykPapuga() {
+        this.isSleeping = true;
+    }
+
 };
 
-const ara = new Parrot('Ara', 'blue', '5');
-console.log(ara); 89
+
+
+
+const ara = new Parrot('Pope', 'blue', '5');
+console.log(ara)
+
+
+const kakadu = new Parrot('Pole', 'green', '3');
+console.log(kakadu)
+
+
+ara.paserti(25);
+console.log('paserta', ara.apetitoLygis);
+
+
+ara.kalbek('Labas pope');
+console.log('Pope pasako:', ara.pasakytasZodis);
